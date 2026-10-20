@@ -32,6 +32,18 @@ with tab1:
 
     # Diccionario con la información por edad
     edades = {
+        "De 0 a 9 años": {
+            "objetivo": "Apoyar el crecimiento, el desarrollo físico y mental y mantener la energía diaria.",
+            "alimentos": {
+                "Proteínas": "Huevos, pollo, pescado, leche, yogur y legumbres.",
+                "Calcio y vitamina D": "Leche, yogur, queso y alimentos fortificados según la edad.",
+                "Frutas": "Mango, guineo, manzana, naranja, fresas y uvas.",
+                "Vegetales": "Zanahoria, calabaza, espinaca, brócoli, tomate y aguacate.",
+                "Cereales y energía": "Arroz, avena, pan integral, maíz y tortillas.",
+                "Grasas saludables": "Aguacate, aceite de oliva, semillas y nueces en porciones moderadas.",
+                "Hidratación": "Tomar agua regularmente y limitar dulces, gaseosas y alimentos muy salados."
+            }
+        },
         "De 10 a 20 años": {
             "objetivo": "Favorecer el crecimiento y el desarrollo.",
             "alimentos": {
@@ -123,6 +135,13 @@ with tab2:
         
         st.markdown("#### 6. Chequeos médicos")
         st.write("Revisar periódicamente la presión arterial, el colesterol, la glucosa y otros indicadores según la edad.")
+
+    st.markdown("### Recomendaciones alimenticias para niños de 0 a 9 años")
+    st.write("- Dar desayunos nutritivos con leche, avena, frutas o yogurt.")
+    st.write("- Incluir frutas y vegetales en cada comida para asegurar vitaminas y minerales.")
+    st.write("- Preferir alimentos caseros y frescos en lugar de snacks ultraprocesados.")
+    st.write("- Mantener horarios regulares de comida y ofrecer agua en vez de gaseosas.")
+    st.write("- Asegurar suficiente calcio y proteína para el crecimiento y fortalecimiento de huesos y músculos.")
 
 with tab3:
     st.header("3. Ejemplo de un menú saludable para un día")
